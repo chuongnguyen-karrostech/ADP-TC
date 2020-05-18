@@ -1,0 +1,29 @@
+server.contextPath=/api
+server.port=8088
+spring.jpa.database=default
+hibernate.show_sql=true
+
+project.name=ADP
+project.version=1.2.0.3
+
+logging.level.org.hibernate.SQL=DEBUG
+logging.level.org.hibernate.type.descriptor.sql.BasicBinder=TRACE
+logging.level.org.hibernate.type=TRACE
+
+# gpsprocessor.ini
+gpsprocessor.ini=D:\\gpsprocessor.ini
+
+# EName database
+ename.database=ENAMECLAYTONNUS
+# jdbc
+jdbc.driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver
+jdbc.url=jdbc:sqlserver://
+
+# urlmamapi
+urlmamapi=http://localhost:8089/api/
+
+
+hibernate.dialect=org.hibernate.dialect.SQLServer2012Dialect
+#hibernate.hbm2ddl.auto=create-drop
+hibernate.cache.use_second_level_cache=false
+hibernate.cache.use_query_cache=false
